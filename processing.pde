@@ -43,7 +43,7 @@ void draw() {
 void influence(){ //mouse movement
   
   if (x!=0 && y!=0)
-    //robo.mouseMove((int)x,(int)y);
+    robo.mouseMove((int)x,(int)y);
 
   println("influence mouseX = " + x + "   mouseY = " + y);
 }
