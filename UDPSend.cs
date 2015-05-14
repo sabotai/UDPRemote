@@ -9,7 +9,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Collections;
 
-public class OSCSend : MonoBehaviour {
+public class UDPSend : MonoBehaviour {
 
 	private UdpClient clientP = new UdpClient();
 	private ASCIIEncoding byteEncoder = new ASCIIEncoding();
